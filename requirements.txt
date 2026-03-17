@@ -1,0 +1,23 @@
+# ─────────────────────────────────────────────
+#  Smart Vision System – Python Dependencies
+#  Install with:  pip install -r requirements.txt
+# ─────────────────────────────────────────────
+
+# Core deep learning & detection
+ultralytics>=8.0.0          # YOLOv8 (auto-downloads model weights)
+torch>=2.0.0                # PyTorch (install CUDA version separately)
+torchvision>=0.15.0
+
+# Computer vision
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Tracking
+deep-sort-realtime>=1.3.2   # DeepSORT tracker (falls back to IoU if missing)
+
+# Re-ID (optional but recommended)
+# torchreid                  # Uncomment after: pip install torchreid
+
+# Utilities
+Pillow>=9.0.0
+scipy>=1.10.0
